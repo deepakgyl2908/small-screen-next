@@ -368,7 +368,7 @@ class HomePage extends React.Component {
                             <div className="col-md-4 col-sm-6">
                                 <div className="info-card">
                                     <div className="image-wrapper">
-                                        <img src="./img/team/Vishal.jpg" />
+                                        <img src="./img/team/prashant.jpg" />
                                     </div>
                                     <div className="info-card-details animate">
                                         <div className="info-card-header">

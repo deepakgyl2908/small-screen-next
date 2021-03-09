@@ -64,7 +64,7 @@ function TeamPage() {
                         <div className="col-md-4">
                             <div className="info-card">
                                 <div className="image-wrapper">
-                                    <img src="./img/team/Vishal.jpg" />
+                                    <img src="./img/team/prashant.jpg" />
                                 </div>
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
