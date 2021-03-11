@@ -738,6 +738,12 @@ body {
 
     .portfolio .video-container {
         margin: 0px;
+        width: 100%;
+    }
+
+    #video {
+        width: 100vw !important;
+        height: 250px !important;
     }
 
     .portfolio .thumbnails {
@@ -745,7 +751,7 @@ body {
         bottom: 0px;
         display: block;
         overflow-y: hidden;
-        padding: 15px;
+        padding: 30px;
     }
 
     .portfolio .thumbnails .thumb {
@@ -831,13 +837,8 @@ body {
         margin: 5rem auto !important;
     }
 
-    .portfolio-wrapper .col-md-12 {
-        padding: 15px;
-    }
-
     .portfolio .thumbnails {
         position: absolute;
-        bottom: 20px;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -877,6 +878,11 @@ body {
     .tile .hs-overlay span {
         font-size: 3rem;
     }
+
+    #video {
+        width: 640px !important;
+        height: 360px !important;
+    }
 }
 
 @media (max-width: 900px) and (orientation: landscape) {
@@ -888,9 +894,13 @@ body {
     }
 
     .portfolio .video-container {
-        width: calc(100vw - 30px);
-        height: calc(100vh - 30px);
-        margin: 15px 0px !important;
+        margin: 0px auto !important;
+        width: 100% !important;
+    }
+
+    #video {
+        width: 100vw !important;
+        height: 100vh !important;
     }
 }
 
@@ -1001,6 +1011,10 @@ body {
     .slider-right,
     .slider-left {
         display: block;
+    }
+
+    .portfolio-wrapper .col-md-12 {
+        padding: 15px;
     }
 }
 
