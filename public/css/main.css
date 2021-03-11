@@ -755,11 +755,6 @@ button.primary:hover {
         width: 100% !important;
     }
 
-    .slider-right,
-    .slider-left {
-        display: none;
-    }
-
     .navbar ul {
         margin-top: 30px;
     }
@@ -874,7 +869,7 @@ button.primary:hover {
 
     .slider-right,
     .slider-left {
-        display: block;
+        display: none;
     }
 
     .tile .hs-overlay span {
@@ -999,6 +994,11 @@ button.primary:hover {
 
     .left-icon-wrapper {
         left: 3rem;
+    }
+
+    .slider-right,
+    .slider-left {
+        display: block;
     }
 }
 
