@@ -61,7 +61,7 @@ function WorkTVCPage() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/tvc/splender')}>
                                 <img src="/img/work/tvc/splender.jpg" />
                                 <div className="description">
@@ -72,7 +72,7 @@ function WorkTVCPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/tvc/destini')}>
                                 <img src="/img/work/tvc/destini.jpg" />
                                 <div className="description">
@@ -83,7 +83,7 @@ function WorkTVCPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/tvc/india_homes')}>
                                 <img src="/img/work/tvc/india_homes.jpg" />
                                 <div className="description">
@@ -94,7 +94,7 @@ function WorkTVCPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/tvc/uninor')}>
                                 <img src="/img/work/tvc/uninor2.jpg" />
                                 <div className="description">
@@ -105,7 +105,7 @@ function WorkTVCPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/tvc/dabur')}>
                                 <img src="/img/work/tvc/dabur.jpg" />
                                 <div className="description">

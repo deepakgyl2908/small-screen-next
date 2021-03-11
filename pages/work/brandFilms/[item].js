@@ -93,7 +93,7 @@ class WorkTVCGalleryPage extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="portfolio">
                 <Head>
                     <meta charSet="UTF-8" />
                     <meta name="title" content="Work - TVC Gallery" />
@@ -106,7 +106,7 @@ class WorkTVCGalleryPage extends React.Component {
                     <script src="/js/simplePlayer.js"></script>
                 </Head>
                 <div className="color_band"></div>
-                <section className="tvc-wrapper portfolio-wrapper portfolio">
+                <section className="tvc-wrapper portfolio-wrapper">
                     <div className="right-icon-wrapper" onClick={() => this.playNextVideo()}>
                         <div className="arrow-right"></div>
                     </div>
@@ -115,29 +115,32 @@ class WorkTVCGalleryPage extends React.Component {
                     </div>
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-12 video-container">
-                                <ReactPlayer
-                                    id="video"
-                                    url={`https://www.youtube.com/watch?v=${list[this.state.currentSlide].url}`}
-                                    light={`${list[this.state.currentSlide].img}`}
-                                    playing={true}
-                                    controls={true}
-                                    loop={true}
-                                />
+                            <div className="col-md-12">
+                                <div className="video-container">
+                                    <div className="close-icon" onClick={() => Router.push('/work/brandFilms')}></div>
+                                    <ReactPlayer
+                                        id="video"
+                                        url={`https://www.youtube.com/watch?v=${list[this.state.currentSlide].url}`}
+                                        light={`${list[this.state.currentSlide].img}`}
+                                        playing={true}
+                                        controls={true}
+                                        loop={true}
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="container thumbnails">
-                        {
-                            list.map((item, index) => {
-                                return (<div className="thumb" onClick={() => this.updateVideo(index)} key={index}>
-                                    <img className="poster" src={item.img} />
-                                    <img className="play-icon" src="../../img/play-button.png" />
-                                </div>)
-                            })
-                        }
-                    </div>
                 </section>
+                <div className="container thumbnails">
+                    {
+                        list.map((item, index) => {
+                            return (<div className="thumb" onClick={() => this.updateVideo(index)} key={index}>
+                                <img className="poster" src={item.img} />
+                                <img className="play-icon" src="../../img/play-button.png" />
+                            </div>)
+                        })
+                    }
+                </div>
             </div >
         )
     }

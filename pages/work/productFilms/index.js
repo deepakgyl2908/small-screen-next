@@ -61,7 +61,7 @@ function WorkDigitalPage() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/mofpi')}>
                                 <img src="/img/work/productFilms/mofpi.jpg" />
                                 <div className="description">
@@ -72,7 +72,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ncw')}>
                                 <img src="/img/work/productFilms/ncw.jpg" />
                                 <div className="description">
@@ -83,7 +83,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/farishte')}>
                                 <img src="/img/work/productFilms/farishte.jpg" />
                                 <div className="description">
@@ -94,7 +94,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/harmoni')}>
                                 <img src="/img/work/productFilms/harmoni.jpg" />
                                 <div className="description">
@@ -105,7 +105,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/corona')}>
                                 <img src="/img/work/productFilms/corona.jpg" />
                                 <div className="description">
@@ -116,7 +116,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/dengue')}>
                                 <img src="/img/work/productFilms/dengue.jpg" />
                                 <div className="description">
@@ -127,7 +127,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ev')}>
                                 <img src="/img/work/productFilms/ev.jpg" />
                                 <div className="description">
@@ -138,7 +138,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/parali')}>
                                 <img src="/img/work/productFilms/parali.jpg" />
                                 <div className="description">
@@ -149,7 +149,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/fauji')}>
                                 <img src="/img/work/productFilms/fauji.jpg" />
                                 <div className="description">
@@ -160,7 +160,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/yoga_day')}>
                                 <img src="/img/work/productFilms/yoga_day.jpg" />
                                 <div className="description">
@@ -171,7 +171,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/track_man')}>
                                 <img src="/img/work/productFilms/track_man.jpg" />
                                 <div className="description">
@@ -182,7 +182,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/dri')}>
                                 <img src="/img/work/productFilms/dri.jpg" />
                                 <div className="description">
@@ -193,7 +193,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/music')}>
                                 <img src="/img/work/productFilms/music.jpg" />
                                 <div className="description">
@@ -204,7 +204,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ignore')}>
                                 <img src="/img/work/productFilms/ignore.jpg" />
                                 <div className="description">
@@ -215,7 +215,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/phfi')}>
                                 <img src="/img/work/productFilms/phfi.jpg" />
                                 <div className="description">
@@ -226,7 +226,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/chpp')}>
                                 <img src="/img/work/productFilms/chpp.jpg" />
                                 <div className="description">
@@ -237,7 +237,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/organ_donation')}>
                                 <img src="/img/work/productFilms/organ_donation.jpg" />
                                 <div className="description">
@@ -248,7 +248,7 @@ function WorkDigitalPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ukeri')}>
                                 <img src="/img/work/productFilms/ukeri.jpg" />
                                 <div className="description">

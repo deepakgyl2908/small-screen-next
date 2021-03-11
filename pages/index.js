@@ -15,6 +15,14 @@ class HomePage extends React.Component {
 
     constructor(props) {
         super(props);
+
+        this.state = {
+            queryType: "customer",
+            name: "",
+            email: "",
+            telephone: "",
+            message: ""
+        }
     }
 
     updatePreviousSlideIndex = () => {
@@ -23,6 +31,61 @@ class HomePage extends React.Component {
 
     updateNextSlideIndex = () => {
         this.slider.slickNext();
+    }
+
+    sendEmail = (e) => {
+        e.preventDefault();
+        let regEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if (this.state.email.trim() === "" || !regEmail.test(this.state.email)) {
+            alert("Please enter valid email");
+        } else if (this.state.telephone.trim() === "") {
+            alert("Please enter message")
+        } else if (this.state.telephone.trim() === "") {
+            alert("Please enter message")
+        } else {
+            let toEmail, subject;
+            if (this.state.queryType === "customer") {
+                toEmail = "deepakgyl2908@gmail.com";
+                subject = "Customer Enquiry from website";
+            } else {
+                toEmail = "deepakgyl2908@gmail.com";
+                subject = "Internship Enquiry from website";
+            }
+
+            Email.send({
+                SecureToken: "488dc7b5-8215-4eea-9723-f35e5612c371",
+                To: toEmail,
+                From: "webmaster.smallscreen@gmail.com",
+                Subject: subject,
+                Body: `<html>
+                    <head></head>
+                    <body>
+                        <table border="1">
+                            <tr>
+                                <td>Name</td>
+                                <td>${this.state.name}</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>${this.state.email}</td>
+                            </tr>
+                            <tr>
+                                <td>Telephone</td>
+                                <td>${this.state.telephone}</td>
+                            </tr>
+                            <tr>
+                                <td>Message</td>
+                                <td>${this.state.message}</td>
+                            </tr>
+                        </table>
+                    </body>
+                </html>`,
+            }).then(
+                message => alert("Mail sent successfully")
+            );
+        }
+
+        /**/
     }
 
     render() {
@@ -38,7 +101,7 @@ class HomePage extends React.Component {
                     <link
                         rel="stylesheet"
                         type="text/css"
-                        charset="UTF-8"
+                        charSet="UTF-8"
                         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
                     />
                     <link
@@ -48,6 +111,7 @@ class HomePage extends React.Component {
                     />
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                    <script src="https://smtpjs.com/v3/smtp.js"></script>
                 </Head>
                 <div className="color_band"></div>
                 <nav className="navbar" role="navigation">
@@ -532,16 +596,24 @@ class HomePage extends React.Component {
                                         <div className="col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="form-name">Nature of Query</label><br />
-                                                <select>
-                                                    <option>Customer Query</option>
-                                                    <option>Internship Query</option>
+                                                <select value={this.state.queryType} onChange={(e) => {
+                                                    this.setState({
+                                                        queryType: e.target.value
+                                                    })
+                                                }}>
+                                                    <option value="customer">Customer Query</option>
+                                                    <option value="intern">Internship Query</option>
                                                 </select>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="form-name">Name</label>
-                                                <input type="email" className="form-control" id="form-name" placeholder="Name" />
+                                                <input type="text" className="form-control" placeholder="Name" value={this.state.name} onChange={(e) => {
+                                                    this.setState({
+                                                        name: e.target.value
+                                                    })
+                                                }} />
                                             </div>
                                         </div>
                                     </div>
@@ -549,14 +621,22 @@ class HomePage extends React.Component {
                                         <div className="col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="form-email">Email Address</label>
-                                                <input type="email" className="form-control" id="form-email"
-                                                    placeholder="Email Address" />
+                                                <input type="email" className="form-control"
+                                                    placeholder="Email Address" value={this.state.email} onChange={(e) => {
+                                                        this.setState({
+                                                            email: e.target.value
+                                                        })
+                                                    }} />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="form-subject">Telephone</label>
-                                                <input type="text" className="form-control" id="form-subject" placeholder="Subject" />
+                                                <input type="tel" className="form-control" placeholder="telephone" value={this.state.telephone} onChange={(e) => {
+                                                    this.setState({
+                                                        telephone: e.target.value
+                                                    })
+                                                }} />
                                             </div>
                                         </div>
                                     </div>
@@ -564,11 +644,15 @@ class HomePage extends React.Component {
                                         <div className="col-md-12">
                                             <div className="form-group">
                                                 <label htmlFor="form-message">Email your Message</label>
-                                                <textarea className="form-control" id="form-message" placeholder="Message"></textarea>
+                                                <textarea className="form-control" placeholder="Message" value={this.state.message} onChange={(e) => {
+                                                    this.setState({
+                                                        message: e.target.value
+                                                    })
+                                                }}></textarea>
                                             </div>
                                         </div>
                                     </div>
-                                    <button className="button primary" type="submit">Contact Us</button>
+                                    <button className="button primary" onClick={(e) => this.sendEmail(e)}>Contact Us</button>
                                 </form>
                             </div>
                         </div>

@@ -61,7 +61,7 @@ function WorkAnimationPage() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hero')}>
                                 <img src="/img/work/animation/hero.jpg" />
                                 <div className="description">
@@ -72,7 +72,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hitachi_ac')}>
                                 <img src="/img/work/animation/hitachi_ac.jpg" />
                                 <div className="description">
@@ -83,7 +83,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hitachi_iclean')}>
                                 <img src="/img/work/animation/hitachi_iclean.jpg" />
                                 <div className="description">
@@ -94,7 +94,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hitachi_odour')}>
                                 <img src="/img/work/animation/hitachi_odour.jpg" />
                                 <div className="description">
@@ -105,7 +105,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/coke')}>
                                 <img src="/img/work/animation/coke.jpg" />
                                 <div className="description">
@@ -116,7 +116,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hp')}>
                                 <img src="/img/work/animation/hp.jpg" />
                                 <div className="description">
@@ -127,7 +127,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/facebook')}>
                                 <img src="/img/work/animation/facebook.jpg" />
                                 <div className="description">
@@ -138,7 +138,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/coke_training')}>
                                 <img src="/img/work/animation/coke_training.jpg" />
                                 <div className="description">
@@ -149,7 +149,7 @@ function WorkAnimationPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/optum')}>
                                 <img src="/img/work/animation/optum.jpg" />
                                 <div className="description">

@@ -61,7 +61,7 @@ function WorkBrandsPage() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hero')}>
                                 <img src="/img/work/brandFilms/hero.jpg" />
                                 <div className="description">
@@ -72,7 +72,7 @@ function WorkBrandsPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hitachi')}>
                                 <img src="/img/work/brandFilms/hitachi.jpg" />
                                 <div className="description">
@@ -83,7 +83,7 @@ function WorkBrandsPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/indigo')}>
                                 <img src="/img/work/brandFilms/indigo.jpg" />
                                 <div className="description">
@@ -94,7 +94,7 @@ function WorkBrandsPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hitachi_csr')}>
                                 <img src="/img/work/brandFilms/hitachi_csr.jpg" />
                                 <div className="description">
@@ -105,7 +105,7 @@ function WorkBrandsPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hero_insurance')}>
                                 <img src="/img/work/brandFilms/hero_insurance.jpg" />
                                 <div className="description">
@@ -116,7 +116,7 @@ function WorkBrandsPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/afcons')}>
                                 <img src="/img/work/brandFilms/afcons.jpg" />
                                 <div className="description">
@@ -127,7 +127,7 @@ function WorkBrandsPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/dpworld')}>
                                 <img src="/img/work/brandFilms/dpworld.jpg" />
                                 <div className="description">
