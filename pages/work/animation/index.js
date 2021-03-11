@@ -21,7 +21,7 @@ function WorkAnimationPage() {
                 </a>
                 <div className="navbar-header">
                     <button type="button" className="navbar-toggle" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1">
+                        data-target="#myNavbar">
                         <span className="sr-only">Toggle navigation</span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
@@ -29,7 +29,7 @@ function WorkAnimationPage() {
                     </button>
                 </div>
                 <div className="collapse navbar-collapse">
-                    <ul className="nav navbar-nav">
+                    <ul className="nav navbar-nav" id="myNavbar">
                         <li className="active">
                             <a href="/">Home</a>
                         </li>

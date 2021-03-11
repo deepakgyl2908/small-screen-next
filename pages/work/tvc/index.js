@@ -21,14 +21,14 @@ function WorkTVCPage() {
                 </a>
                 <div className="navbar-header">
                     <button type="button" className="navbar-toggle" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1">
+                        data-target="#myNavbar">
                         <span className="sr-only">Toggle navigation</span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
                 </div>
-                <div className="collapse navbar-collapse">
+                <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav">
                         <li className="active">
                             <a href="/">Home</a>
