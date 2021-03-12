@@ -780,6 +780,18 @@ body {
     .slider-left {
         display: none;
     }
+
+    .clients .logo-container {
+        padding: 5px;
+    }
+
+    .my-form label {
+        font-size: 10px;
+    }
+
+    .contact-us {
+        margin-bottom: 50px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -882,6 +894,14 @@ body {
     #video {
         width: 640px !important;
         height: 360px !important;
+    }
+
+    .clients .logo-container {
+        padding: 15px 5px;
+    }
+
+    .my-form label {
+        font-size: 1rem;
     }
 }
 

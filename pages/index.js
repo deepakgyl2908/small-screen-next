@@ -632,7 +632,7 @@ class HomePage extends React.Component {
                                         <div className="col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="form-subject">Telephone</label>
-                                                <input type="tel" className="form-control" placeholder="telephone" value={this.state.telephone} onChange={(e) => {
+                                                <input type="tel" className="form-control" placeholder="Telephone" value={this.state.telephone} onChange={(e) => {
                                                     this.setState({
                                                         telephone: e.target.value
                                                     })
