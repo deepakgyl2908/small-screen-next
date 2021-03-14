@@ -37,6 +37,10 @@ const list = [
         img: "/img/work/productFilms/parali.jpg"
     },
     {
+        url: "Qta3DQOWQQo",
+        img: "/img/work/productFilms/vigyan.jpg"
+    },
+    {
         url: "-kpK0tFwz7s",
         img: "/img/work/productFilms/fauji.jpg"
     },
@@ -105,26 +109,28 @@ class WorkTVCGalleryPage extends React.Component {
             currentSlide = 6;
         } else if (this.props.router.query.item === "parali") {
             currentSlide = 7;
-        } else if (this.props.router.query.item === "fauji") {
+        } else if (this.props.router.query.item === "vigyan") {
             currentSlide = 8;
-        } else if (this.props.router.query.item === "yoga_day") {
+        } else if (this.props.router.query.item === "fauji") {
             currentSlide = 9;
-        } else if (this.props.router.query.item === "track_man") {
+        } else if (this.props.router.query.item === "yoga_day") {
             currentSlide = 10;
-        } else if (this.props.router.query.item === "dri") {
+        } else if (this.props.router.query.item === "track_man") {
             currentSlide = 11;
-        } else if (this.props.router.query.item === "music") {
+        } else if (this.props.router.query.item === "dri") {
             currentSlide = 12;
-        } else if (this.props.router.query.item === "ignore") {
+        } else if (this.props.router.query.item === "music") {
             currentSlide = 13;
-        } else if (this.props.router.query.item === "phfi") {
+        } else if (this.props.router.query.item === "ignore") {
             currentSlide = 14;
-        } else if (this.props.router.query.item === "chpp") {
+        } else if (this.props.router.query.item === "phfi") {
             currentSlide = 15;
-        } else if (this.props.router.query.item === "organ_donation") {
+        } else if (this.props.router.query.item === "chpp") {
             currentSlide = 16;
-        } else if (this.props.router.query.item === "ukeri") {
+        } else if (this.props.router.query.item === "organ_donation") {
             currentSlide = 17;
+        } else if (this.props.router.query.item === "ukeri") {
+            currentSlide = 18;
         }
 
 

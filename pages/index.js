@@ -324,9 +324,22 @@ class HomePage extends React.Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="row">
-                                    <div className="col-md-6 col-sm-6">
+                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/tvShows')}>
                                         <div className="tile">
-                                            <div className="hs-wrapper" onClick={() => Router.push('/work/tvc')}>
+                                            <div className="hs-wrapper">
+                                                <img src="/img/offerings/tv/1.jpg" alt="" />
+                                                <div className="hs-overlay">
+                                                    <div className="hs-overlay-text-wrapper">
+                                                        <span><strong>TV</strong></span>
+                                                        <div className="play"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/tvc')}>
+                                        <div className="tile">
+                                            <div className="hs-wrapper">
                                                 <img src="/img/offerings/tvc/5.png" alt="" />
                                                 <div className="hs-overlay">
                                                     <div className="hs-overlay-text-wrapper">
@@ -337,45 +350,33 @@ class HomePage extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/digital')}>
-                                        <div className="tile">
-                                            <div className="hs-wrapper">
-                                                <img src="/img/offerings/digital/1.jpg" alt="" />
-                                                <div className="hs-overlay">
-                                                    <div className="hs-overlay-text-wrapper">
-                                                        <span><strong>Digital</strong>films</span>
-                                                        <div className="play"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="row">
-                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/productFilms')}>
+                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/digital')}>
                                         <div className="tile">
                                             <div className="hs-wrapper">
-                                                <img src="/img/offerings/institutional/1.jpg" alt="" />
+                                                <img src="/img/offerings/digital/1.jpg" alt="" />
                                                 <div className="hs-overlay">
                                                     <div className="hs-overlay-text-wrapper">
-                                                        <span><strong>Product</strong>films</span>
+                                                        <span><strong>Digital</strong></span>
                                                         <div className="play"></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/tvShows')}>
+                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/brandFilms')}>
                                         <div className="tile">
                                             <div className="hs-wrapper">
-                                                <img src="/img/offerings/tv/1.jpg" alt="" />
+                                                <img src="/img/offerings/brand/1.jpg" alt="" />
                                                 <div className="hs-overlay">
                                                     <div className="hs-overlay-text-wrapper">
-                                                        <span><strong>TV Shows</strong></span>
+                                                        <span><strong>Brand</strong></span>
                                                         <div className="play"></div>
                                                     </div>
                                                 </div>
@@ -401,13 +402,13 @@ class HomePage extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/brandFilms')}>
+                                    <div className="col-md-6 col-sm-6" onClick={() => Router.push('/work/productFilms')}>
                                         <div className="tile">
                                             <div className="hs-wrapper">
-                                                <img src="/img/offerings/brand/1.jpg" alt="" />
+                                                <img src="/img/offerings/institutional/1.jpg" alt="" />
                                                 <div className="hs-overlay">
                                                     <div className="hs-overlay-text-wrapper">
-                                                        <span><strong>Brand</strong>films</span>
+                                                        <span><strong>Institutional</strong></span>
                                                         <div className="play"></div>
                                                     </div>
                                                 </div>

@@ -33,6 +33,10 @@ const list = [
         img: "/img/work/digital/park_hotel.jpg"
     },
     {
+        url: "qOj_5UskS40",
+        img: "/img/work/digital/zomato.jpg"
+    },
+    {
         url: "5WDwND4bMK8",
         img: "/img/work/digital/groom.jpg"
     },
@@ -107,30 +111,32 @@ class WorkTVCGalleryPage extends React.Component {
             currentSlide = 5;
         } else if (this.props.router.query.item === "park_hotel") {
             currentSlide = 6;
-        } else if (this.props.router.query.item === "groom_barabar") {
+        } else if (this.props.router.query.item === "zomato") {
             currentSlide = 7;
-        } else if (this.props.router.query.item === "chivas") {
+        } else if (this.props.router.query.item === "groom_barabar") {
             currentSlide = 8;
-        } else if (this.props.router.query.item === "ted") {
+        } else if (this.props.router.query.item === "chivas") {
             currentSlide = 9;
-        } else if (this.props.router.query.item === "bpft") {
+        } else if (this.props.router.query.item === "ted") {
             currentSlide = 10;
-        } else if (this.props.router.query.item === "asian_paints") {
+        } else if (this.props.router.query.item === "bpft") {
             currentSlide = 11;
-        } else if (this.props.router.query.item === "glenlivet") {
+        } else if (this.props.router.query.item === "asian_paints") {
             currentSlide = 12;
-        } else if (this.props.router.query.item === "kfc") {
+        } else if (this.props.router.query.item === "glenlivet") {
             currentSlide = 13;
-        } else if (this.props.router.query.item === "mother_dairy") {
+        } else if (this.props.router.query.item === "kfc") {
             currentSlide = 14;
-        } else if (this.props.router.query.item === "nestle") {
+        } else if (this.props.router.query.item === "mother_dairy") {
             currentSlide = 15;
-        } else if (this.props.router.query.item === "nestle_milkmail") {
+        } else if (this.props.router.query.item === "nestle") {
             currentSlide = 16;
-        } else if (this.props.router.query.item === "mothers_recipe") {
+        } else if (this.props.router.query.item === "nestle_milkmail") {
             currentSlide = 17;
-        } else if (this.props.router.query.item === "google_adwords") {
+        } else if (this.props.router.query.item === "mothers_recipe") {
             currentSlide = 18;
+        } else if (this.props.router.query.item === "google_adwords") {
+            currentSlide = 19;
         }
 
 

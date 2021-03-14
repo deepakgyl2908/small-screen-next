@@ -54,7 +54,7 @@ function WorkDigitalPage() {
             <section className="tvc-wrapper portfolio-wrapper">
                 <div id="video-gallery" className="video-gallery-container container-fluid">
                     <div className="section-header">
-                        <div className="title">Product Films</div>
+                        <div className="title">Institutional</div>
                         <div className="seperator">
                             <img src="/img/ss_colour_band.png" />
                             <div className="play"></div>
@@ -87,7 +87,7 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/farishte')}>
                                 <img src="/img/work/productFilms/farishte.jpg" />
                                 <div className="description">
-                                    <h1>Farishte</h1>
+                                    <h1>Farishtay</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
@@ -120,7 +120,7 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/dengue')}>
                                 <img src="/img/work/productFilms/dengue.jpg" />
                                 <div className="description">
-                                    <h1>dengue</h1>
+                                    <h1>Dengue</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
@@ -143,6 +143,17 @@ function WorkDigitalPage() {
                                 <img src="/img/work/productFilms/parali.jpg" />
                                 <div className="description">
                                     <h1>Parali</h1>
+                                    <h3>
+                                    </h3>
+                                    <img className="play-icon" src="../img/play-button.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6">
+                            <div className="lightvideo" onClick={() => Router.push('/work/productFilms/vigyan')}>
+                                <img src="/img/work/productFilms/vigyan.jpg" />
+                                <div className="description">
+                                    <h1>Vigyan Prasar<br />(Quantum Science & Technology)</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
@@ -197,7 +208,7 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/music')}>
                                 <img src="/img/work/productFilms/music.jpg" />
                                 <div className="description">
-                                    <h1>Breakthrough Music</h1>
+                                    <h1>Breakthrough<br />Music</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
@@ -208,7 +219,7 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ignore')}>
                                 <img src="/img/work/productFilms/ignore.jpg" />
                                 <div className="description">
-                                    <h1>Breakthrough Ignore</h1>
+                                    <h1>Breakthrough<br />Ignore No More</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />

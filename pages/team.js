@@ -266,7 +266,7 @@ function TeamPage() {
                                 </div>
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
-                                        <h1> Rejender</h1>
+                                        <h1> Rajender</h1>
                                         <h3> Batman & Robin </h3>
                                         <div className="card-highlighter"></div>
                                     </div>

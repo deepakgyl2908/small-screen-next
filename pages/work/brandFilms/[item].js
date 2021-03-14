@@ -25,6 +25,10 @@ const list = [
         img: "/img/work/brandFilms/hero_insurance.jpg"
     },
     {
+        url: "dJB9rgSinC8",
+        img: "/img/work/brandFilms/hitachi_corporate.jpg"
+    },
+    {
         url: "0QfQmtfMbEU",
         img: "/img/work/brandFilms/afcons.jpg"
     },
@@ -55,10 +59,12 @@ class WorkTVCGalleryPage extends React.Component {
             currentSlide = 3;
         } else if (this.props.router.query.item === "hero_insurance") {
             currentSlide = 4;
-        } else if (this.props.router.query.item === "afcons") {
+        } else if (this.props.router.query.item === "hitachi_corporate") {
             currentSlide = 5;
-        } else if (this.props.router.query.item === "dpworld") {
+        } else if (this.props.router.query.item === "afcons") {
             currentSlide = 6;
+        } else if (this.props.router.query.item === "dpworld") {
+            currentSlide = 7;
         }
 
         this.state = {

@@ -54,7 +54,7 @@ function WorkDigitalPage() {
             <section className="tvc-wrapper portfolio-wrapper">
                 <div id="video-gallery" className="video-gallery-container container-fluid">
                     <div className="section-header">
-                        <div className="title">Digital Films</div>
+                        <div className="title">Digital</div>
                         <div className="seperator">
                             <img src="/img/ss_colour_band.png" />
                             <div className="play"></div>
@@ -132,6 +132,17 @@ function WorkDigitalPage() {
                                 <img src="/img/work/digital/park_hotel.jpg" />
                                 <div className="description">
                                     <h1>Park Hotel</h1>
+                                    <h3>
+                                    </h3>
+                                    <img className="play-icon" src="../img/play-button.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6">
+                            <div className="lightvideo" onClick={() => Router.push('/work/digital/zomato')}>
+                                <img src="/img/work/digital/zomato.jpg" />
+                                <div className="description">
+                                    <h1>Zomato</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />

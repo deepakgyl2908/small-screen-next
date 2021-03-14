@@ -54,7 +54,7 @@ function WorkBrandsPage() {
             <section className="tvc-wrapper portfolio-wrapper">
                 <div id="video-gallery" className="video-gallery-container container-fluid">
                     <div className="section-header">
-                        <div className="title">Brand Films</div>
+                        <div className="title">Brand</div>
                         <div className="seperator">
                             <img src="/img/ss_colour_band.png" />
                             <div className="play"></div>
@@ -110,6 +110,17 @@ function WorkBrandsPage() {
                                 <img src="/img/work/brandFilms/hero_insurance.jpg" />
                                 <div className="description">
                                     <h1>Hero Insurance</h1>
+                                    <h3>
+                                    </h3>
+                                    <img className="play-icon" src="../img/play-button.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6">
+                            <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hitachi_corporate')}>
+                                <img src="/img/work/brandFilms/hitachi_corporate.jpg" />
+                                <div className="description">
+                                    <h1>Hitachi</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />

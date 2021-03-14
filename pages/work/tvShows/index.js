@@ -54,7 +54,7 @@ function WorkTVCPage() {
             <section className="tvc-wrapper portfolio-wrapper">
                 <div id="video-gallery" className="video-gallery-container container-fluid">
                     <div className="section-header">
-                        <div className="title">TV Shows</div>
+                        <div className="title">TV</div>
                         <div className="seperator">
                             <img src="/img/ss_colour_band.png" />
                             <div className="play"></div>

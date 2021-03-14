@@ -396,6 +396,10 @@ body {
     display: none;
 }
 
+.lightvideo {
+    box-shadow: 0 3px 6px -2px #797d7f;
+}
+
 /******* teams ********/
 
 /******* portfolio *******/
@@ -998,7 +1002,7 @@ body {
     }
 
     .portfolio-wrapper .description {
-        width: 180px;
+        width: 230px;
     }
 
     .video-gallery-container {
