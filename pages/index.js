@@ -45,10 +45,13 @@ class HomePage extends React.Component {
         } else {
             let toEmail, subject;
             if (this.state.queryType === "customer") {
-                toEmail = "deepakgyl2908@gmail.com";
+                toEmail = "contact@small-screen.com";
                 subject = "Customer Enquiry from website";
+            } else if (this.state.queryType === "job") {
+                toEmail = "jobs@small-screen.com";
+                subject = "Job Enquiry from website";
             } else {
-                toEmail = "deepakgyl2908@gmail.com";
+                toEmail = "intern@small-screen.com";
                 subject = "Internship Enquiry from website";
             }
 
@@ -603,6 +606,7 @@ class HomePage extends React.Component {
                                                     })
                                                 }}>
                                                     <option value="customer">Customer Query</option>
+                                                    <option value="job">Job Query</option>
                                                     <option value="intern">Internship Query</option>
                                                 </select>
                                             </div>
