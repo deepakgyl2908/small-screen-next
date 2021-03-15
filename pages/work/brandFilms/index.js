@@ -106,6 +106,17 @@ function WorkBrandsPage() {
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
+                            <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/genpact')}>
+                                <img src="/img/work/brandFilms/genpact.jpg" />
+                                <div className="description">
+                                    <h1>Genpact <br />(CSR & Floor & One AV)</h1>
+                                    <h3>
+                                    </h3>
+                                    <img className="play-icon" src="../img/play-button.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hero_insurance')}>
                                 <img src="/img/work/brandFilms/hero_insurance.jpg" />
                                 <div className="description">

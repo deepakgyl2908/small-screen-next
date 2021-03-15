@@ -123,7 +123,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Vishal</h1>
-                                        <h3> Associate Partner </h3>
+                                        <h3> Associate Partner</h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -151,7 +151,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Nishant</h1>
-                                        <h3> Direction </h3>
+                                        <h3> Creative Director </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -175,7 +175,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Iqbal</h1>
-                                        <h3> Direction </h3>
+                                        <h3> Post Supervisor </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -197,7 +197,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Shikha</h1>
-                                        <h3> Direction </h3>
+                                        <h3> Associate Director </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -220,7 +220,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Ashish</h1>
-                                        <h3> Production Ninja's </h3>
+                                        <h3> Producer </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -246,7 +246,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Nikhil</h1>
-                                        <h3> Production Ninja's </h3>
+                                        <h3> Drone Pilot </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -267,7 +267,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Rajender</h1>
-                                        <h3> Batman & Robin </h3>
+                                        <h3> DOP </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -280,30 +280,12 @@ function TeamPage() {
                         <div className="col-md-4 col-sm-4">
                             <div className="info-card">
                                 <div className="image-wrapper">
-                                    <img src="./img/team/manoj.jpg" />
-                                </div>
-                                <div className="info-card-details animate">
-                                    <div className="info-card-header">
-                                        <h1> Manoj</h1>
-                                        <h3> Batman & Robin </h3>
-                                        <div className="card-highlighter"></div>
-                                    </div>
-                                    <div className="info-card-detail">
-
-                                        <p>Wingman of Raju. Assistant cameraperson and sound recordist. Makes sure that everything sounds right on shoots. Dislikes – airplanes, dogs who bark incessantly, and noisy crews. Can be spotted shouting ‘Silence’ on shoots.  </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
-                                <div className="image-wrapper">
                                     <img src="./img/team/deshraj.jpg" />
                                 </div>
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Deshraj</h1>
-                                        <h3> Gangs of Edit-pur </h3>
+                                        <h3> Senior Editor </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -321,7 +303,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Mohit</h1>
-                                        <h3> Gangs of Edit-pur </h3>
+                                        <h3> Senior Editor </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -339,7 +321,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Abhijeet</h1>
-                                        <h3> Gangs of Edit-pur </h3>
+                                        <h3> Senior Editor </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -357,7 +339,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Rohit</h1>
-                                        <h3> Gangs of Edit-pur </h3>
+                                        <h3> Editor </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -370,12 +352,30 @@ function TeamPage() {
                         <div className="col-md-4 col-sm-4">
                             <div className="info-card">
                                 <div className="image-wrapper">
+                                    <img src="./img/team/vikram.jpg" />
+                                </div>
+                                <div className="info-card-details animate">
+                                    <div className="info-card-header">
+                                        <h1> Vikram </h1>
+                                        <h3> Motion GFX Artists </h3>
+                                        <div className="card-highlighter"></div>
+                                    </div>
+                                    <div className="info-card-detail">
+
+                                        <p>Creative thinkers. Quiet creators. Quite creative. Speak the language of design fluently.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-4">
+                            <div className="info-card">
+                                <div className="image-wrapper">
                                     <img src="./img/team/himanshu.jpg" />
                                 </div>
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Himanshu</h1>
-                                        <h3> Dynamic Designers </h3>
+                                        <h3> Motion GFX Artists </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -429,7 +429,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Pradeep</h1>
-                                        <h3> The Bookkeepers </h3>
+                                        <h3> Accountants </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -442,12 +442,47 @@ function TeamPage() {
                         <div className="col-md-4 col-sm-4">
                             <div className="info-card">
                                 <div className="image-wrapper">
+                                    <img src="./img/team/ruchin.jpg" />
+                                </div>
+                                <div className="info-card-details animate">
+                                    <div className="info-card-header">
+                                        <h1> Ruchin</h1>
+                                        <h3> Accountants </h3>
+                                        <div className="card-highlighter"></div>
+                                    </div>
+                                    <div className="info-card-detail">
+                                        <p>The duo that keeps all the balance sheets in check. Somehow, they always manage to find their way out of the number-maze.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-4">
+                            <div className="info-card">
+                                <div className="image-wrapper">
+                                    <img src="./img/team/manoj.jpg" />
+                                </div>
+                                <div className="info-card-details animate">
+                                    <div className="info-card-header">
+                                        <h1> Manoj</h1>
+                                        <h3> Sound Recordist </h3>
+                                        <div className="card-highlighter"></div>
+                                    </div>
+                                    <div className="info-card-detail">
+
+                                        <p>Wingman of Raju. Assistant cameraperson and sound recordist. Makes sure that everything sounds right on shoots. Dislikes – airplanes, dogs who bark incessantly, and noisy crews. Can be spotted shouting ‘Silence’ on shoots.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-4">
+                            <div className="info-card">
+                                <div className="image-wrapper">
                                     <img src="./img/team/shukla.jpg" />
                                 </div>
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Shukla Ji</h1>
-                                        <h3> Troika of Support </h3>
+                                        <h3> Rider </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -465,7 +500,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Pancham Ji</h1>
-                                        <h3> Troika of Support </h3>
+                                        <h3> Support Staff </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
@@ -483,7 +518,7 @@ function TeamPage() {
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
                                         <h1> Reena Didi</h1>
-                                        <h3> Troika of Support </h3>
+                                        <h3> Support Staff </h3>
                                         <div className="card-highlighter"></div>
                                     </div>
                                     <div className="info-card-detail">
