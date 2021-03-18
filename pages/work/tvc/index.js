@@ -65,7 +65,7 @@ function WorkTVCPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/tvc/splender')}>
                                 <img src="/img/work/tvc/splender.jpg" />
                                 <div className="description">
-                                    <h1>Splender</h1>
+                                    <h1>Splendor</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />

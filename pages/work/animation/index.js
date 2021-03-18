@@ -65,8 +65,9 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hero')}>
                                 <img src="/img/work/animation/hero.jpg" />
                                 <div className="description">
-                                    <h1>Hero</h1>
                                     <h3>
+                                        A life like 3D animation for Hero Motocorp showcasing their motorcycle in a
+                                        photo realistic environment.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -76,8 +77,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hitachi_ac')}>
                                 <img src="/img/work/animation/hitachi_ac.jpg" />
                                 <div className="description">
-                                    <h1>Hitachi</h1>
                                     <h3>
+                                        A set of 3D animation films that focus on the unique technology proposition of Hitachi air-conditioners.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -87,8 +88,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hitachi_iclean')}>
                                 <img src="/img/work/animation/hitachi_iclean.jpg" />
                                 <div className="description">
-                                    <h1>Hitachi</h1>
                                     <h3>
+                                        A set of 3D animation films that focus on the unique technology proposition of Hitachi air-conditioners.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -98,8 +99,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hitachi_odour')}>
                                 <img src="/img/work/animation/hitachi_odour.jpg" />
                                 <div className="description">
-                                    <h1>Hitachi</h1>
                                     <h3>
+                                        A set of 3D animation films that focus on the unique technology proposition of Hitachi air-conditioners.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -109,8 +110,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/coke')}>
                                 <img src="/img/work/animation/coke.jpg" />
                                 <div className="description">
-                                    <h1>Coke</h1>
                                     <h3>
+                                        A 2D animated film highlighting the key aspects from Coca Cola’s annual sustainability report.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -120,8 +121,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/hp')}>
                                 <img src="/img/work/animation/hp.jpg" />
                                 <div className="description">
-                                    <h1>HP</h1>
                                     <h3>
+                                        A whiteboard animation film created for HP for a presentation to the Government of India.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -131,8 +132,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/facebook')}>
                                 <img src="/img/work/animation/facebook.jpg" />
                                 <div className="description">
-                                    <h1>Facebook</h1>
                                     <h3>
+                                        A set of seven safety films created for Facebook. The artwork was provided by Facebook. Small Screen animated and voiced the films in 54 Indian and foreign languages.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -142,8 +143,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/coke_training')}>
                                 <img src="/img/work/animation/coke_training.jpg" />
                                 <div className="description">
-                                    <h1>Coke Training</h1>
                                     <h3>
+                                        A character animation training film for Coca Cola regarding protocols that must be followed by frontline sales personnel to protect themselves and their sales partners.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -153,8 +154,8 @@ function WorkAnimationPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/animation/optum')}>
                                 <img src="/img/work/animation/optum.jpg" />
                                 <div className="description">
-                                    <h1>Optum</h1>
                                     <h3>
+                                        A character animation film highlighting the benefits of a product created by Optum for better utilisation of existing health infrastructure of a city.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>

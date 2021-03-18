@@ -427,6 +427,17 @@ body {
 .video-gallery-container .col-md-6 {
     margin-bottom: 30px;
 }
+
+.lightvideo {
+    overflow-y: hidden;
+    overflow-x: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.lightvideo:hover .description {
+    margin-left: 0px;
+}
 /******* portfolio *******/
 
 .seperator img {
@@ -448,9 +459,16 @@ body {
     position: absolute;
     top: 0px;
     height: 100%;
-    background: rgba(231, 76, 60, 0.85);
+    background: rgba(20,172,182, 0.85);
     color: #fff;
-    padding: 15px;
+    padding: 1.5rem;
+    bottom: 0;
+    left: 0;
+    margin-left: -220px;
+    right: 0;
+    height: 100%;
+    transition: .5s ease;
+    overflow-y: hidden;
 }
 
 .portfolio-wrapper .description i {
@@ -463,6 +481,14 @@ body {
 
 .portfolio-wrapper .description h1 {
     font-size: 3.6rem;
+}
+
+.portfolio-wrapper .description h3 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    display: block;
+    overflow-x: auto;
+    height: 75%;
 }
 
 .mapouter {
@@ -554,13 +580,13 @@ body {
     height: 154px;
     resize: none;
 }
-
+/*
 .portfolio .video-container {
     position: relative;
     background: #000;
     width: 60%;
     margin: 7rem auto;
-}
+}*/
 
 .portfolio .close-icon:after {
     content: '\2715';
@@ -595,17 +621,16 @@ body {
 
 .portfolio .thumbnails {
     position: absolute;
-    bottom: 20px;
     width: 100%;
     display: flex;
     flex-direction: row;
     overflow-y: auto;
 }
-
+/*
 .portfolio .thumbnails img.poster {
     height: 20rem;
     margin-right: 20px;
-}
+}*/
 
 .portfolio .thumbnails .thumb img.play-icon {
     position: absolute;
@@ -619,6 +644,8 @@ body {
 .portfolio .thumbnails .thumb {
     display: inline-block;
     position: relative;
+    height:100%;
+    margin-right:15px;
 }
 
 .arrow-right {
@@ -675,9 +702,6 @@ body {
     width: 100%;
 }
 
-.portfolio-wrapper {
-    position: relative;
-}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 320px) {
@@ -725,6 +749,7 @@ body {
 
     .portfolio-wrapper .description {
         width: 115px;
+        margin-left: -115px;
     }
 
     .video-gallery-container {
@@ -796,6 +821,10 @@ body {
     .contact-us {
         margin-bottom: 50px;
     }
+
+    .portfolio-wrapper .description h3 {
+        height: 65%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -841,16 +870,40 @@ body {
 
     .portfolio-wrapper .description {
         width: 140px;
+        margin-left: -140px;
     }
 
     .video-gallery-container {
         padding: 50px 15px;
     }
 
+    .right-icon-wrapper {
+        right: 1rem;
+    }
+
+    .left-icon-wrapper {
+        left: 1rem;
+    }
+
+    .right-icon-wrapper,
+    .left-icon-wrapper,
+    .color_band {
+        display: block !important;
+    }
+
+
+    .tile .hs-overlay span {
+        font-size: 3rem;
+    }
+
+    /*.portfolio .thumbnails {
+        display: flex !important;
+    }
+
     .portfolio .video-container {
         width: 640px;
         height: initial;
-        margin: 5rem auto !important;
+        margin: 5vh auto !important;
     }
 
     .portfolio .thumbnails {
@@ -873,32 +926,10 @@ body {
         top: -4rem;
     }
 
-    .right-icon-wrapper {
-        right: 1rem;
-    }
-
-    .left-icon-wrapper {
-        left: 1rem;
-    }
-
-    .right-icon-wrapper,
-    .left-icon-wrapper,
-    .color_band {
-        display: block !important;
-    }
-
-    .portfolio .thumbnails {
-        display: flex !important;
-    }
-
-    .tile .hs-overlay span {
-        font-size: 3rem;
-    }
-
     #video {
         width: 640px !important;
         height: 360px !important;
-    }
+    }*/
 
     .clients .logo-container {
         padding: 15px;
@@ -907,10 +938,22 @@ body {
     .my-form label {
         font-size: 1rem;
     }
+
+    .portfolio-wrapper .description h3 {
+        height: 70%;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    /*.right-icon-wrapper,
+    .left-icon-wrapper,
+    .color_band {
+        display: none !important;
+    }*/
 }
 
 @media (max-width: 900px) and (orientation: landscape) {
-    .portfolio .thumbnails,
+    /*.portfolio .thumbnails,
     .right-icon-wrapper,
     .left-icon-wrapper,
     .color_band {
@@ -925,7 +968,7 @@ body {
     #video {
         width: 100vw !important;
         height: 100vh !important;
-    }
+    }*/
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -1003,10 +1046,73 @@ body {
 
     .portfolio-wrapper .description {
         width: 230px;
+        margin-left: -230px;
     }
 
     .video-gallery-container {
         padding: 50px 70px 100px 60px;
+    }
+
+    
+
+    .right-icon-wrapper {
+        right: 3rem;
+    }
+
+    .left-icon-wrapper {
+        left: 3rem;
+    }
+
+    .slider-right,
+    .slider-left {
+        display: block;
+    }
+
+    .video-container {
+        height: 75vh !important;
+        width: 100% !important;
+        box-sizing: border-box;
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .portfolio-wrapper {
+        position: relative;
+    }
+
+    .portfolio .thumbnails img.poster {
+        height: 100%;
+        width:auto;
+    }
+
+    .player-wrapper {
+        height:100% !important;
+        width: calc(16/9 * (75vh - 143px)) !important;
+        margin: auto;
+    }
+
+    #video {
+        height:100% !important;
+        width: 100% !important;
+    }
+
+    .portfolio .thumbnails {
+        height: 25vh;
+        box-sizing: border-box;
+        padding: 15px;
+        display: flex;
+    }
+
+    .portfolio .close-icon {
+        font-size: 7rem;
+        position: absolute;
+        top:-15px;
+    }
+
+    /*.portfolio-wrapper .col-md-12 {
+        padding: 15px;
     }
 
     .portfolio .video-container {
@@ -1022,23 +1128,9 @@ body {
         font-size: 5rem;
         right: -7rem;
         top: -5rem;
-    }
-
-    .right-icon-wrapper {
-        right: 3rem;
-    }
-
-    .left-icon-wrapper {
-        left: 3rem;
-    }
-
-    .slider-right,
-    .slider-left {
-        display: block;
-    }
-
-    .portfolio-wrapper .col-md-12 {
-        padding: 15px;
+    }*/
+    .portfolio-wrapper .description h3 {
+        height: 75%;
     }
 }
 
@@ -1100,7 +1192,7 @@ body {
         margin-bottom: 50px;
     }
 
-    .portfolio .thumbnails img.poster {
+    /*.portfolio .thumbnails img.poster {
         height: 20rem;
     }
 
@@ -1111,17 +1203,17 @@ body {
     #video {
         height: 468px !important;
         width: 100% !important;
-    }
+    }*/
 }
 
 @media (min-width: 1200px) and (max-height: 801px) {
-    .portfolio .thumbnails img.poster {
+    /*.portfolio .thumbnails img.poster {
         height: 16rem;
     }
 
     .portfolio .video-container {
         margin: 5rem auto;
-    }
+    }*/
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -1164,15 +1256,25 @@ body {
 
     .portfolio-wrapper .description {
         width: 220px;
+        margin-left: -220px;
     }
 
-    .portfolio .video-container {
+    .portfolio-wrapper .description h3 {
+        height: 85%;
+    }
+
+    /*.portfolio .video-container {
         width: 1152px;
     }
 
     #video {
-        height: 648px !important;
+        height: 75vh !important;
         width: 100% !important;
+    }
+
+    .portfolio .thumbnails img.poster {
+        height: 25vh;
+        margin: 0px;
     }
 
     .portfolio .close-icon:after {
@@ -1180,4 +1282,24 @@ body {
         top: -7rem;
         font-size: 7rem;
     }
+
+    /*.portfolio .video-container {
+        width: 1152px;
+    }
+
+    #video {
+        height: calc(75vh - 12rem) !important;
+        width: 100% !important;
+    }
+
+    .portfolio .thumbnails img.poster {
+        height: calc(25vh - 60px);
+        margin-bottom: 0px;
+    }
+
+    .portfolio .close-icon:after {
+        right: -8rem;
+        top: -7rem;
+        font-size: 7rem;
+    }*/
 }

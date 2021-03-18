@@ -191,14 +191,16 @@ class WorkTVCGalleryPage extends React.Component {
                             <div className="col-md-12">
                                 <div className="video-container">
                                     <div className="close-icon" onClick={() => Router.push('/work/productFilms')}></div>
-                                    <ReactPlayer
-                                        id="video"
-                                        url={`https://www.youtube.com/watch?v=${list[this.state.currentSlide].url}`}
-                                        light={`${list[this.state.currentSlide].img}`}
-                                        playing={true}
-                                        controls={true}
-                                        loop={true}
-                                    />
+                                    <div className="player-wrapper">
+                                        <ReactPlayer
+                                            id="video"
+                                            url={`https://www.youtube.com/watch?v=${list[this.state.currentSlide].url}`}
+                                            light={`${list[this.state.currentSlide].img}`}
+                                            playing={true}
+                                            controls={true}
+                                            loop={true}
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
