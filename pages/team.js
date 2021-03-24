@@ -62,7 +62,7 @@ function TeamPage() {
                     </div>
                     <div className="row">
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/prashant.jpg" />
                                 </div>
@@ -88,7 +88,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/Roopak.jpg" />
                                 </div>
@@ -116,7 +116,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/Vishal.jpg" />
                                 </div>
@@ -144,7 +144,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/Nishant Arora.jpg" />
                                 </div>
@@ -168,7 +168,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/Mohammad Iqbal.JPG" />
                                 </div>
@@ -190,7 +190,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/Shikha.jpg" />
                                 </div>
@@ -213,7 +213,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/Ashish1.jpg" />
                                 </div>
@@ -239,7 +239,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/Nikhil.jpg" />
                                 </div>
@@ -260,7 +260,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/rajender.jpg" />
                                 </div>
@@ -278,7 +278,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/deshraj.jpg" />
                                 </div>
@@ -296,7 +296,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/mohit.jpg" />
                                 </div>
@@ -314,7 +314,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/abhijet.jpg" />
                                 </div>
@@ -332,7 +332,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/rohit.jpg" />
                                 </div>
@@ -368,9 +368,9 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
-                                    <img src="./img/team/himanshu.jpg" />
+                                    <img src="./img/team/Himanshu.jpg" />
                                 </div>
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
@@ -386,7 +386,7 @@ function TeamPage() {
                             </div>
                         </div>
                         {/*<div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/himanshu.jpg" />
                                 </div>
@@ -404,7 +404,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/pradeep.jpg" />
                                 </div>
@@ -422,9 +422,9 @@ function TeamPage() {
                             </div>
                                         </div>*/}
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
-                                    <img src="./img/team/pradeep.jpg" />
+                                    <img src="./img/team/Pradeep.jpg" />
                                 </div>
                                 <div className="info-card-details animate">
                                     <div className="info-card-header">
@@ -457,7 +457,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/manoj.jpg" />
                                 </div>
@@ -475,7 +475,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/shukla.jpg" />
                                 </div>
@@ -493,7 +493,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/pancham.jpg" />
                                 </div>
@@ -511,7 +511,7 @@ function TeamPage() {
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
-                            <div className="info-card">
+                            <div className="info-card animate">
                                 <div className="image-wrapper">
                                     <img src="./img/team/reena.jpg" />
                                 </div>

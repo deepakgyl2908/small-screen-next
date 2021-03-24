@@ -134,6 +134,7 @@ body {
     animation-play-state: paused;*/
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 /*
 .tile .hs-wrapper:hover img {
@@ -337,7 +338,7 @@ body {
     bottom: 100%;
     padding: 10px 0px 0px 0px;
 }
-.team .info-card:hover .info-card-details {
+.team .info-card.animate:hover .info-card-details {
     bottom: 0px;
     overflow: auto;
     padding-bottom: 25px;
@@ -345,7 +346,7 @@ body {
     color: #ffffff;
     font-size: 2.2rem;
 }
-.team .info-card:hover .info-card-details .info-card-header {
+.team .info-card.animate:hover .info-card-details .info-card-header {
     position: relative;
     bottom: 0px;
     padding-top: 45px;
@@ -353,8 +354,8 @@ body {
     background: transparent;
 }
 
-.team .info-card:hover .info-card-details .info-card-header h1,
-.team .info-card:hover .info-card-details .info-card-header h3 {
+.team .info-card.animate:hover .info-card-details .info-card-header h1,
+.team .info-card.animate:hover .info-card-details .info-card-header h3 {
     color: #ffffff;
 }
 .team .info-card .info-card-details .info-card-header h1,
@@ -532,6 +533,7 @@ body {
 .clients .logo-container {
     display: flex;
     padding: 15px 5px;
+    align-items: flex-start;
 }
 
 .clients .col-md-4 .button {
@@ -1045,8 +1047,8 @@ body {
     }
 
     .portfolio-wrapper .description {
-        width: 230px;
-        margin-left: -230px;
+        width: 35%;
+        margin-left: -35%;
     }
 
     .video-gallery-container {
@@ -1255,8 +1257,8 @@ body {
     }
 
     .portfolio-wrapper .description {
-        width: 220px;
-        margin-left: -220px;
+        width: 35%;
+        margin-left: -35%;
     }
 
     .portfolio-wrapper .description h3 {

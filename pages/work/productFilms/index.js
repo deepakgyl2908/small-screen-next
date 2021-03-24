@@ -65,8 +65,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/mofpi')}>
                                 <img src="/img/work/productFilms/mofpi.jpg" />
                                 <div className="description">
+                                    <h1>Ministry of Food Processing</h1>
                                     <h3>
-                                        A digital film highlighting Ministry of Food Processing policy that assists small, unorganised food processing businesses to modernise and enhance their competitiveness  thought access to technology, credit and comply with health and safety compliance’s.
+                                        Digital film highlighting the Ministry’s policy and initiatives to enhance the competitiveness of food processing businesses in the unorganised sector.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -76,8 +77,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ncw')}>
                                 <img src="/img/work/productFilms/ncw.jpg" />
                                 <div className="description">
+                                    <h1>National Commission of Women</h1>
                                     <h3>
-                                        An advocacy film for National Commission for Women that encourages women to speak up and seek help in cases of domestic violence.
+                                        An advocacy film encouraging women to speak up and seek help in cases of domestic violence.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -87,8 +89,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/farishte')}>
                                 <img src="/img/work/productFilms/farishte.jpg" />
                                 <div className="description">
+                                    <h1>Delhi Government</h1>
                                     <h3>
-                                        Short case study films on beneficiaries of a Delhi Government scheme, Farishtey, that helps accident victims by rewarding good Samaritans who help accident victims and pays hospital bills of accident victim.
+                                        Short case studies of beneficiaries of a scheme that helps accident victims by paying their hospital bills and also rewards good samaritans who help accident victims.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -98,8 +101,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/harmoni')}>
                                 <img src="/img/work/productFilms/harmoni.jpg" />
                                 <div className="description">
+                                    <h1>Delhi Legislative Assembly</h1>
                                     <h3>
-                                        TVC for Delhi Assembly for spreading awareness of the legal consequences of forwarding unsolicited and unverified social media posts.
+                                        TVC for spreading awareness of the legal consequences of forwarding unsolicited and unverified social media posts.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -109,8 +113,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/corona')}>
                                 <img src="/img/work/productFilms/corona.jpg" />
                                 <div className="description">
+                                    <h1>Delhi Government</h1>
                                     <h3>
-                                        A set of TVCs created for Delhi Government for spreading awareness of COVID and steps to take in the event of infection.
+                                        TVC created for spreading awareness of COVID and steps to take in the event of infection.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -120,8 +125,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/dengue')}>
                                 <img src="/img/work/productFilms/dengue.jpg" />
                                 <div className="description">
+                                    <h1>Delhi Government</h1>
                                     <h3>
-                                        A call to action TVC for Delhi Government on how to stop the spread of Dengue.
+                                        A call to action TVC on how people of Delhi can help in stopping the spread of Dengue.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -131,8 +137,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ev')}>
                                 <img src="/img/work/productFilms/ev.jpg" />
                                 <div className="description">
+                                    <h1>Delhi Government</h1>
                                     <h3>
-                                        PSA for Delhi Government to spread awareness of Delhi Government policy encourage adoption of EVs.
+                                        TVC to spread awareness of Delhi Government policy to encourage adoption of EVs.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -142,8 +149,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/parali')}>
                                 <img src="/img/work/productFilms/parali.jpg" />
                                 <div className="description">
+                                    <h1>Delhi Government</h1>
                                     <h3>
-                                        PSA highlighting steps taken by Delhi Government with regards to ending stubble burning by farmers leading to high levels of pollution in Delhi.
+                                        TVC to highlight the steps taken by the Delhi Government to end stubble burning by farmers that leads to high levels of pollution in Delhi.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -153,8 +161,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/vigyan')}>
                                 <img src="/img/work/productFilms/vigyan.jpg" />
                                 <div className="description">
+                                    <h1>Vigyan Prasar</h1>
                                     <h3>
-                                        A documentary for Vigyan Prasar on the Government of India’s  Quantum Mission and its role in protecting India’s access to future technologies from cryptography to quantum computing.
+                                        A documentary on the Government of India’s  Quantum Mission and its role in protecting India’s access to future technologies from cryptography to quantum computing.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -164,8 +173,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/fauji')}>
                                 <img src="/img/work/productFilms/fauji.jpg" />
                                 <div className="description">
+                                    <h1>Ministry of Defence</h1>
                                     <h3>
-                                        A TV series for the Dept. of Resettlement, Ministry of Defence to showcase the options and training available for retired armed forces personnel to set up business.
+                                        A TV series for the Dept of Resettlement showcasing the post-retirement options and help available to armed forces personnel to set up a business.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -175,8 +185,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/yoga_day')}>
                                 <img src="/img/work/productFilms/yoga_day.jpg" />
                                 <div className="description">
+                                    <h1>Ministry of External Affairs</h1>
                                     <h3>
-                                        A film for the Ministry of External Affairs to promote the International Yoga Day.
+                                        A film for the Ministry of External Affairs to promote International Yoga Day.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -186,8 +197,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/track_man')}>
                                 <img src="/img/work/productFilms/track_man.jpg" />
                                 <div className="description">
+                                    <h1>Indian Railways</h1>
                                     <h3>
-                                        A short film for the Indian Railways on the critical role of a Railway gangman.
+                                        A short film on railway gangmen and the critical nature of their work for the safety of passengers.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -197,8 +209,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/dri')}>
                                 <img src="/img/work/productFilms/dri.jpg" />
                                 <div className="description">
+                                    <h1>Department of Revenue Intelligence</h1>
                                     <h3>
-                                        A film created for the anniversary celebrations of Directorate of Revenue Intelligence. It showcases the objectives, operations and culture of this elite organisation as told by its former Directors.
+                                        A film created for DRI’s anniversary celebrations speaking about the objectives, and culture of this elite organisation as told by its former directors of operations.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -208,8 +221,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/music')}>
                                 <img src="/img/work/productFilms/music.jpg" />
                                 <div className="description">
+                                    <h1>Breakthrough.Org</h1>
                                     <h3>
-                                        A music video created for Breakthrough encouraging men to participate in house work.
+                                        A music video created to encourage men to participate in housework.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -219,8 +233,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/ignore')}>
                                 <img src="/img/work/productFilms/ignore.jpg" />
                                 <div className="description">
+                                    <h1>Breakthrough.Org</h1>
                                     <h3>
-                                        A short TVC for Breakthrough encouraging people to intervene when they see an incident of sexual harassment.
+                                        A TVC encouraging people to step forward and intervene when they see an incident of sexual harassment.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -230,8 +245,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/phfi')}>
                                 <img src="/img/work/productFilms/phfi.jpg" />
                                 <div className="description">
+                                    <h1>Public Health Foundation of India</h1>
                                     <h3>
-                                        A set of short case study films for Public Health Foundation of India on innovations in the field of public health.
+                                        A set of short case study films on innovations in the field of public health.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -241,8 +257,9 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/chpp')}>
                                 <img src="/img/work/productFilms/chpp.jpg" />
                                 <div className="description">
+                                    <h1>Save the Children</h1>
                                     <h3>
-                                        Film for Save the Children program that works for safeguarding the interest of children in rural areas in the event of a setback to a family’s income.
+                                        Two films were created with the objective of encouraging people to sign up as organ donors.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -252,6 +269,7 @@ function WorkDigitalPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/productFilms/organ_donation')}>
                                 <img src="/img/work/productFilms/organ_donation.jpg" />
                                 <div className="description">
+                                    <h1>Organ Donation</h1>
                                     <h3>
                                         Two films were created for Organ, with the objective to encourage people to sign up as an organ donor. One film was from the perspective of the relatives of organ donors and another from the perspective of organ receivers.
                                     </h3>

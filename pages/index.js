@@ -38,9 +38,7 @@ class HomePage extends React.Component {
         let regEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if (this.state.email.trim() === "" || !regEmail.test(this.state.email)) {
             alert("Please enter valid email");
-        } else if (this.state.telephone.trim() === "") {
-            alert("Please enter message")
-        } else if (this.state.telephone.trim() === "") {
+        } else if (this.state.message.trim() === "") {
             alert("Please enter message")
         } else {
             let toEmail, subject;
