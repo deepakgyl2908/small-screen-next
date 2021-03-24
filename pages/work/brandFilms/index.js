@@ -65,8 +65,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hero')}>
                                 <img src="/img/work/brandFilms/hero.jpg" />
                                 <div className="description">
+                                    <h1>Hero MotoCorp</h1>
                                     <h3>
-                                        A product launch film shot on set for Hero Motocorp scooters.
+                                        A product launch film shot on set.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -76,8 +77,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hitachi')}>
                                 <img src="/img/work/brandFilms/hitachi.jpg" />
                                 <div className="description">
+                                    <h1>Hitachi</h1>
                                     <h3>
-                                        An anthem written, scored and recorded for Hitachi for use as caller tune.
+                                        An anthem created for Hitachi’s call waiting, and caller tune.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -87,8 +89,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/indigo')}>
                                 <img src="/img/work/brandFilms/indigo.jpg" />
                                 <div className="description">
+                                    <h1>Indigo Airlines</h1>
                                     <h3>
-                                        A HR film for Indigo airlines recruitment outlining why Indigo is a great place to work in.
+                                        A recruitment film outlining why Indigo is a great place to work for prospective employees.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -98,8 +101,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hitachi_csr')}>
                                 <img src="/img/work/brandFilms/hitachi_csr.jpg" />
                                 <div className="description">
+                                    <h1>Hitachi</h1>
                                     <h3>
-                                        A film on Hitachi’s CSR programs around their plant in Gujarat.
+                                        Hitachi has several CSR programs around its plant in Gujarat. The film highlights some of them.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -109,8 +113,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/genpact')}>
                                 <img src="/img/work/brandFilms/genpact.jpg" />
                                 <div className="description">
+                                    <h1>Genpact CSR</h1>
                                     <h3>
-                                        Genpact used their deep knowledge of data analytics to help Teach for India get actionable insight into each students progress in school. The film showcases this intervention and its impact on the ground.
+                                        Genpact used its deep knowledge of data analytics to help Teach for India get actionable insight into each student's progress in school. The film showcases this intervention and its impact.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -120,8 +125,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hero_insurance')}>
                                 <img src="/img/work/brandFilms/hero_insurance.jpg" />
                                 <div className="description">
+                                    <h1>Hero Insurance</h1>
                                     <h3>
-                                        A corporate film showing how Hero Insurance has increased penetration of auto insurance in underserved areas by creating new channels for sales and renewal of insurance.
+                                        A corporate film showing how Hero Insurance has increased penetration of auto insurance in underserved areas.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -131,6 +137,7 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/hitachi_corporate')}>
                                 <img src="/img/work/brandFilms/hitachi_corporate.jpg" />
                                 <div className="description">
+                                    <h1>Hitachi</h1>
                                     <h3>
                                         A short film for the merger event of Hitachi with Jhonson Controls.
                                     </h3>
@@ -142,8 +149,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/afcons')}>
                                 <img src="/img/work/brandFilms/afcons.jpg" />
                                 <div className="description">
+                                    <h1>AFCONS</h1>
                                     <h3>
-                                        A project film showcasing AFCONS work on the worlds’ tallest single arch bridge. The film highlights what makes this bridge one of a kind.
+                                        A projected film showcasing challenges in building the worlds tallest single-arch bridge.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
@@ -153,8 +161,9 @@ function WorkBrandsPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/brandFilms/dpworld')}>
                                 <img src="/img/work/brandFilms/dpworld.jpg" />
                                 <div className="description">
+                                    <h1>DP World</h1>
                                     <h3>
-                                        A film on the impact DP World has had on India’s international trade through its Nahva Sheva port.
+                                        A film on the DP World’s alignment with the Indian Government’s Port Led Development strategy and its impact on India’s international trade.
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
                                 </div>
