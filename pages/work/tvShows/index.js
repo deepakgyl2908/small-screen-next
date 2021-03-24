@@ -65,7 +65,7 @@ function WorkTVCPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/tvShows/omg')}>
                                 <img src="/img/work/tvShows/omg.jpg" />
                                 <div className="description">
-                                    <h1>OMG</h1>
+                                    <h1>OMG! Yeh Mera India</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
@@ -131,7 +131,7 @@ function WorkTVCPage() {
                             <div className="lightvideo" onClick={() => Router.push('/work/tvShows/oppo')}>
                                 <img src="/img/work/tvShows/oppo.jpg" />
                                 <div className="description">
-                                    <h1>OPPO-SUPERFACTORIES</h1>
+                                    <h1>Oppo Superfactories</h1>
                                     <h3>
                                     </h3>
                                     <img className="play-icon" src="../img/play-button.png" />
