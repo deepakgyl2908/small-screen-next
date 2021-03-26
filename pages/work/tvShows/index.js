@@ -67,7 +67,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>OMG! Yeh Mera India</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -76,7 +76,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Britain Tourism</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -85,7 +85,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Go India North East</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -94,7 +94,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>The Great Indian Factory</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -103,7 +103,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Thalis of India</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -112,16 +112,16 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Blenders Pride Fashion Tour</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="lightvideo" onClick={() => Router.push('/work/tvShows/oppo')}>
                                 <img src="/img/work/tvShows/oppo.jpg" />
                                 <div className="description">
-                                    <h1>Oppo Superfactories</h1>
+                                    <h1>Oppo-Superfactories</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -130,7 +130,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Highway On My Plate</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -139,7 +139,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Vital Stats of India</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -148,7 +148,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>New Creative India</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -157,7 +157,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>What's with Indian Men</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -166,7 +166,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Conde Nast Restaurant Awards</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -175,7 +175,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Inside Out - Greenko</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -184,7 +184,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Inside Out - The Science of Ayurveda</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -193,7 +193,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Inside Out - God of grains</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -202,7 +202,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Lufthansa</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -211,7 +211,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>L'oreal Hairdressing Awards</h1>
                                     <h3>
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                     </div>

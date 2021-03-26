@@ -68,7 +68,7 @@ function WorkAnimationPage() {
                                     <h1>Hero MotoCorp</h1>
                                     <h3>
                                         A life-like 3D animation showcasing the features of the product.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -78,7 +78,7 @@ function WorkAnimationPage() {
                                     <h1>Hitachi</h1>
                                     <h3>
                                         A set of 3D animation films that focus on the unique technology proposition of Hitachi air-conditioners.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -88,7 +88,7 @@ function WorkAnimationPage() {
                                     <h1>Hitachi</h1>
                                     <h3>
                                         A set of 3D animation films that focus on the unique technology proposition of Hitachi air-conditioners.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -98,7 +98,7 @@ function WorkAnimationPage() {
                                     <h1>Hitachi</h1>
                                     <h3>
                                         A set of 3D animation films that focus on the unique technology proposition of Hitachi air-conditioners.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -108,7 +108,7 @@ function WorkAnimationPage() {
                                     <h1>Coca Cola</h1>
                                     <h3>
                                         A 2D animation highlighting key aspects of Coca Cola’s annual sustainability report. The film was shown at the press launch of the Sustainability Report.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -118,7 +118,7 @@ function WorkAnimationPage() {
                                     <h1>HP</h1>
                                     <h3>
                                         A whiteboard animation film cerated for HP for presentation to the Government of India.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -128,7 +128,7 @@ function WorkAnimationPage() {
                                     <h1>Facebook</h1>
                                     <h3>
                                         A set of 7 safety films created for Facebook. The artwork was provided by Facebook. Small Screen animated and voiced the films in 54 Indian and foreign languages.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -138,7 +138,7 @@ function WorkAnimationPage() {
                                     <h1>Coca Cola</h1>
                                     <h3>
                                         A character animation film for Coca Cola to explain to frontline sales personnel protocols to be followed to protect themselves and their sales partners.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -148,7 +148,7 @@ function WorkAnimationPage() {
                                     <h1>Optum</h1>
                                     <h3>
                                         A character animation film highlighting the benefits of a product created by Optum for better utilisation of a city’s existing health infrastructure.
-                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
+                                    </h3></div><img className="play-icon" src="../../img/play-button.png" />
                             </div>
                         </div>
                     </div>

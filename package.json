@@ -1,5 +1,6 @@
 {
     "name": "small-screen-build",
+    "homepage": "localhost",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -17,9 +18,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "next",
-        "build": "next build",
-        "start": "next start",
-        "prod": "next export"
+        "build": "next build && next export",
+        "start": "next start"
     },
     "author": "",
     "license": "ISC"
