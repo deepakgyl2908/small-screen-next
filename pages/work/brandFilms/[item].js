@@ -129,7 +129,7 @@ class WorkTVCGalleryPage extends React.Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="video-container">
-                                    <div className="close-icon" onClick={() => Router.push('/work/brandFilms')}></div>
+
                                     <div className="player-wrapper">
                                         <ReactPlayer
                                             id="video"
@@ -139,6 +139,7 @@ class WorkTVCGalleryPage extends React.Component {
                                             controls={true}
                                             loop={true}
                                         />
+                                        <div className="close-icon" onClick={() => Router.push('/work/brandFilms')}></div>
                                     </div>
                                 </div>
                             </div>

@@ -67,9 +67,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Splendor</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -78,9 +76,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Destini</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -89,9 +85,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>India Homes</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -100,9 +94,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Uninor</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -111,9 +103,7 @@ function WorkTVCPage() {
                                 <div className="description">
                                     <h1>Dabur</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                     </div>

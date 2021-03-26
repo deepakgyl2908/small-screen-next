@@ -349,8 +349,8 @@ body {
 .team .info-card.animate:hover .info-card-details .info-card-header {
     position: relative;
     bottom: 0px;
-    padding-top: 45px;
-    padding-bottom: 25px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     background: transparent;
 }
 
@@ -439,6 +439,11 @@ body {
 .lightvideo:hover .description {
     margin-left: 0px;
 }
+
+.lightvideo:hover .play-icon {
+    display: none;
+}
+
 /******* portfolio *******/
 
 .seperator img {
@@ -456,7 +461,7 @@ body {
 }
 
 .portfolio-wrapper .description {
-    width: 220px;
+    width: 38%;
     position: absolute;
     top: 0px;
     height: 100%;
@@ -465,11 +470,12 @@ body {
     padding: 1.5rem;
     bottom: 0;
     left: 0;
-    margin-left: -220px;
+    margin-left: -38%;
     right: 0;
     height: 100%;
     transition: .5s ease;
-    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .portfolio-wrapper .description i {
@@ -488,8 +494,8 @@ body {
     font-size: 2.2rem;
     line-height: 2.5rem;
     display: block;
-    overflow-x: auto;
-    height: 75%;
+    /*overflow-x: auto;
+    height: 75%;*/
 }
 
 .mapouter {
@@ -582,6 +588,8 @@ body {
     height: 154px;
     resize: none;
 }
+
+
 /*
 .portfolio .video-container {
     position: relative;
@@ -749,10 +757,10 @@ body {
         margin-bottom: 15px;
     }
 
-    .portfolio-wrapper .description {
+    /*.portfolio-wrapper .description {
         width: 115px;
         margin-left: -115px;
-    }
+    }*/
 
     .video-gallery-container {
         padding: 30px 15px;
@@ -767,7 +775,7 @@ body {
         padding: 0px;
     }
 
-    .portfolio .video-container {
+    /*.portfolio .video-container {
         margin: 0px;
         width: 100%;
     }
@@ -775,14 +783,14 @@ body {
     #video {
         width: 100vw !important;
         height: 250px !important;
-    }
+    }*/
 
     .portfolio .thumbnails {
         position: relative;
         bottom: 0px;
         display: block;
         overflow-y: hidden;
-        padding: 30px;
+        padding: 3rem;
     }
 
     .portfolio .thumbnails .thumb {
@@ -824,8 +832,34 @@ body {
         margin-bottom: 50px;
     }
 
-    .portfolio-wrapper .description h3 {
+    /*.portfolio-wrapper .description h3 {
         height: 65%;
+    }*/
+
+    .video-container {
+        width: auto; 
+        height: auto; 
+    }
+
+    .player-wrapper {
+        padding-top: 56.25%; 
+        position: relative; 
+    }
+
+    .player-wrapper > div {
+        position: absolute;
+        top:0px;
+        left:0px;
+    }
+
+    #video{
+        height: 100% !important;
+        width:100% !important;
+    }
+
+    .right-icon-wrapper,
+    .left-icon-wrapper{
+        display: none !important;
     }
 }
 
@@ -870,10 +904,10 @@ body {
         font-size: 3rem;
     }
 
-    .portfolio-wrapper .description {
+    /*.portfolio-wrapper .description {
         width: 140px;
         margin-left: -140px;
-    }
+    }*/
 
     .video-gallery-container {
         padding: 50px 15px;
@@ -886,13 +920,6 @@ body {
     .left-icon-wrapper {
         left: 1rem;
     }
-
-    .right-icon-wrapper,
-    .left-icon-wrapper,
-    .color_band {
-        display: block !important;
-    }
-
 
     .tile .hs-overlay span {
         font-size: 3rem;
@@ -941,8 +968,34 @@ body {
         font-size: 1rem;
     }
 
-    .portfolio-wrapper .description h3 {
+    /*.portfolio-wrapper .description h3 {
         height: 70%;
+    }*/
+
+    .video-container {
+        width: auto; 
+        height: auto; 
+    }
+
+    .player-wrapper {
+        padding-top: 56.25%; 
+        position: relative; 
+    }
+
+    .player-wrapper > div {
+        position: absolute;
+        top:0px;
+        left:0px;
+    }
+
+    #video{
+        height: 100% !important;
+        width:100% !important;
+    }
+
+    .right-icon-wrapper,
+    .left-icon-wrapper{
+        display: none !important;
     }
 }
 
@@ -1046,10 +1099,10 @@ body {
         border-left: 2rem solid #ccc;
     }
 
-    .portfolio-wrapper .description {
+    /*.portfolio-wrapper .description {
         width: 35%;
         margin-left: -35%;
-    }
+    }*/
 
     .video-gallery-container {
         padding: 50px 70px 100px 60px;
@@ -1093,6 +1146,8 @@ body {
         height:100% !important;
         width: calc(16/9 * (75vh - 143px)) !important;
         margin: auto;
+        position: relative;
+        padding-top: 0px;
     }
 
     #video {
@@ -1108,9 +1163,11 @@ body {
     }
 
     .portfolio .close-icon {
-        font-size: 7rem;
+        font-size: 70px;
         position: absolute;
-        top:-15px;
+        top:-85px;
+        right:-10px;
+        left:auto;
     }
 
     /*.portfolio-wrapper .col-md-12 {
@@ -1130,9 +1187,14 @@ body {
         font-size: 5rem;
         right: -7rem;
         top: -5rem;
-    }*/
+    }
     .portfolio-wrapper .description h3 {
         height: 75%;
+    }*/
+
+    .right-icon-wrapper,
+    .left-icon-wrapper{
+        display: block !important;
     }
 }
 
@@ -1256,14 +1318,14 @@ body {
         border-left: 4rem solid #ccc;
     }
 
-    .portfolio-wrapper .description {
+    /*.portfolio-wrapper .description {
         width: 35%;
         margin-left: -35%;
-    }
+    }*/
 
-    .portfolio-wrapper .description h3 {
+    /*.portfolio-wrapper .description h3 {
         height: 85%;
-    }
+    }*/
 
     /*.portfolio .video-container {
         width: 1152px;

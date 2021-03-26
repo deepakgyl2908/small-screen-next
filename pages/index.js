@@ -432,7 +432,7 @@ class HomePage extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-md-4 col-sm-6">
-                                <div className="info-card">
+                                <div className="info-card animate">
                                     <div className="image-wrapper">
                                         <img src="./img/team/prashant.jpg" />
                                     </div>
@@ -457,7 +457,7 @@ class HomePage extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-4 col-sm-6">
-                                <div className="info-card">
+                                <div className="info-card animate">
                                     <div className="image-wrapper">
                                         <img src="./img/team/Roopak.jpg" />
                                     </div>
@@ -484,7 +484,7 @@ class HomePage extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
-                                <div className="info-card">
+                                <div className="info-card animate">
                                     <div className="image-wrapper">
                                         <img src="./img/team/Vishal.jpg" />
                                     </div>

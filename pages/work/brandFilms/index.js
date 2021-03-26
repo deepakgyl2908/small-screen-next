@@ -68,9 +68,7 @@ function WorkBrandsPage() {
                                     <h1>Hero MotoCorp</h1>
                                     <h3>
                                         A product launch film shot on set.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -80,9 +78,7 @@ function WorkBrandsPage() {
                                     <h1>Hitachi</h1>
                                     <h3>
                                         An anthem created for Hitachi’s call waiting, and caller tune.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -92,9 +88,7 @@ function WorkBrandsPage() {
                                     <h1>Indigo Airlines</h1>
                                     <h3>
                                         A recruitment film outlining why Indigo is a great place to work for prospective employees.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -104,9 +98,7 @@ function WorkBrandsPage() {
                                     <h1>Hitachi</h1>
                                     <h3>
                                         Hitachi has several CSR programs around its plant in Gujarat. The film highlights some of them.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -116,9 +108,7 @@ function WorkBrandsPage() {
                                     <h1>Genpact CSR</h1>
                                     <h3>
                                         Genpact used its deep knowledge of data analytics to help Teach for India get actionable insight into each student's progress in school. The film showcases this intervention and its impact.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -128,9 +118,7 @@ function WorkBrandsPage() {
                                     <h1>Hero Insurance</h1>
                                     <h3>
                                         A corporate film showing how Hero Insurance has increased penetration of auto insurance in underserved areas.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -140,9 +128,7 @@ function WorkBrandsPage() {
                                     <h1>Hitachi</h1>
                                     <h3>
                                         A short film for the merger event of Hitachi with Jhonson Controls.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -152,9 +138,7 @@ function WorkBrandsPage() {
                                     <h1>AFCONS</h1>
                                     <h3>
                                         A projected film showcasing challenges in building the worlds tallest single-arch bridge.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -164,9 +148,7 @@ function WorkBrandsPage() {
                                     <h1>DP World</h1>
                                     <h3>
                                         A film on the DP World’s alignment with the Indian Government’s Port Led Development strategy and its impact on India’s international trade.
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                     </div>

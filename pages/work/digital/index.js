@@ -67,9 +67,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Hitachi</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -78,9 +76,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Hitachi</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -89,9 +85,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Hitachi</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -100,9 +94,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Coke</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -111,9 +103,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Coke</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -122,9 +112,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Lenscrafters</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -133,9 +121,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Park Hotel</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -144,9 +130,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Zomato</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -155,9 +139,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Groom Barabar Groom</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -166,9 +148,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Chivas</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -177,9 +157,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Ted Baker</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -188,9 +166,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>BPFT Vignette</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -199,9 +175,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Asian Paints</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -210,9 +184,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Glenlivet</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -221,9 +193,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>KFC</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -232,9 +202,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Mother Dairy</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -243,9 +211,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Nestle Bhuna Masala</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -254,9 +220,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Nestle Milkmaid</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -265,9 +229,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Mother's Recipe</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6">
@@ -276,9 +238,7 @@ function WorkDigitalPage() {
                                 <div className="description">
                                     <h1>Google Adwords</h1>
                                     <h3>
-                                    </h3>
-                                    <img className="play-icon" src="../img/play-button.png" />
-                                </div>
+                                    </h3></div><img className="play-icon" src="../img/play-button.png" />
                             </div>
                         </div>
                     </div>
